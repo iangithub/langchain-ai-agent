@@ -1,0 +1,28 @@
+# Lab8: Linebot + AI Agent 系統依賴套件
+# 用於 Azure Web App 部署
+
+# Web 框架
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+
+# LINE Bot SDK
+line-bot-sdk>=3.0.0
+
+# LangChain / LangGraph
+langchain>=1.0.0
+langchain-openai>=1.0.0
+langchain-core>=1.0.0
+langgraph>=1.0.0
+
+# OpenAI
+openai>=1.0.0
+
+# 環境變數
+python-dotenv>=1.0.0
+
+# 其他依賴
+pydantic>=2.0.0
+httpx>=0.24.0
+
+# Azure Web App 部署用
+gunicorn>=21.0.0

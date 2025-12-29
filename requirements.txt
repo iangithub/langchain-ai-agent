@@ -40,3 +40,12 @@ urllib3==2.6.2
 uuid-utils==0.12.0
 xxhash==3.6.0
 zstandard==0.25.0
+
+# Lab7: MCP (Model Context Protocol) 相關套件
+mcp>=1.0.0
+langchain-mcp-adapters>=0.1.0
+
+# Lab8: Linebot + AI Agent 相關套件
+line-bot-sdk>=3.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
